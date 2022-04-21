@@ -1,5 +1,3 @@
-'use strict';
-
 var src = {};
 
 /*
@@ -5857,4 +5855,4 @@ function runUniversalDetector(buffer, options) {
 
 var jschardet = src;
 
-module.exports = jschardet;
+export { jschardet as default };
